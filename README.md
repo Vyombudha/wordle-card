@@ -1,14 +1,35 @@
-# wordle-card
+# Wordle Card
 
-*About* 
-This is the first Card that I've designed for the game scores. For now, it is designed very simply. 
+## About
 
-It has 4 main elements:
-1. Title - The title for all cards is 'Game Score'
-2. Profile Picture - The profile picture of the user
-3. Score SVG - A SVG to represent the rating of that game in numerical value as progresss rings
-               The SVG itself has 3 main componets
-               3.1 Background Ring - The Ring with grey stroke to highlight the empty parts of the Fill Ring
-               3.2 Fill Ring - The Ring that dynamically gets filled with on it's perimeter and stroke from rating of the game using JS
-               3.2 The Rating - The Rating for that game
-4. Quote - The game uses a simple algo to get a quote from the game rating
+This is the first score card design for the game. The current version is intentionally simple and consists of four main elements:
+
+### 1. Title
+
+The title used across all cards is **"Game Score"**.
+
+### 2. Profile Picture
+
+Displays the user's profile picture.
+
+### 3. Score SVG
+
+An SVG component used to visually represent the game's rating using progress rings.
+
+The SVG contains three main components:
+
+#### 3.1 Background Ring
+
+A grey-stroked ring that represents the unfilled portion of the score.
+
+#### 3.2 Fill Ring
+
+A dynamic ring whose perimeter fill and stroke are updated via JavaScript based on the game's rating.
+
+#### 3.3 Rating
+
+Displays the numerical rating for the game.
+
+### 4. Quote
+
+A quote generated using a simple algorithm based on the game's rating.
